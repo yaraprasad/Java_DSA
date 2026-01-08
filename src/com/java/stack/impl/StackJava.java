@@ -1,7 +1,7 @@
 package com.java.stack.impl;;
 
 public class StackJava {
-
+  //Stack follow LIFO (Last in First out)
     // stack implementation using Arrays which is static in nature
     //that means once a capacity of the array is defined it is going to stay as is
     //throughout the life of the program
