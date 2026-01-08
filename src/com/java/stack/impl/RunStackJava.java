@@ -1,4 +1,4 @@
-package com.java.base.template;
+package com.java.stack.impl;
 
 public class RunStackJava {
     public static void main(String[] args) {
