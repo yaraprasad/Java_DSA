@@ -18,7 +18,7 @@ public class RunStackJava {
 
         //Approach 2
         stack.pop();
-        System.out.println("Top most element at present "+stack.top());
+        System.out.println("Top most element at present "+stack.peek());
         System.out.println("Size of the stack "+stack.size());
         //stack.printStack();
 
@@ -26,7 +26,7 @@ public class RunStackJava {
         stack.pop();
         stack.pop();
         //stack.pop();  //gives Stack is empty
-        System.out.println("Top most element at present "+stack.top());
+        System.out.println("Top most element at present "+stack.peek());
         System.out.println("Size of the stack "+stack.size());
         //stack.printStack();
 

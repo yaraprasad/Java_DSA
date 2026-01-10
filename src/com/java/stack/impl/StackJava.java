@@ -55,12 +55,12 @@ public class StackJava {
             System.out.println("Stack is empty");
             System.exit(1);
         }else {
-            System.out.println("Pop "+top());
+            System.out.println("Pop "+peek());
             top=top-1;
         }
     }
 
-    public int top(){
+    public int peek(){
             if(!checkIfEmpty()){
                 return stack[top];
             }else {
